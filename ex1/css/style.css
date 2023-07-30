@@ -1,0 +1,33 @@
+body {
+    background-color: palevioletred;
+    font-size: normal 15pt Arial;
+    font-family: sans-serif;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 15px;
+    width: 40rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.536);
+    margin: 20px auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+
+@media screen and (max-width: 768px){
+    section {
+        width: auto;
+        margin: 20px 7%;
+    }
+}
