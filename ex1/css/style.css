@@ -28,6 +28,7 @@ img {
 @media screen and (max-width: 768px){
     section {
         width: auto;
-        margin: 20px 7%;
+        margin: 20px 5%;
+        padding: 10px;
     }
 }
